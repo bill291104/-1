@@ -31,6 +31,18 @@ public class PizzaTestDrive {
  
 		pizza = dependentPizzaStore.createPizza("Chicago", "veggie");
 		System.out.println("Joel ordered a " + pizza.getName() + "\n");
-		
+
+		pizza = dependentPizzaStore.createPizza("Seoul", "cheese");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
+
+		pizza = dependentPizzaStore.createPizza("Seoul", "veggie");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
+
+		pizza = dependentPizzaStore.createPizza("Seoul", "clam");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
+
+		pizza = dependentPizzaStore.createPizza("Seoul", "kimchi");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
+
 	}
 }
