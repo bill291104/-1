@@ -24,6 +24,16 @@ public class DependentPizzaStore {
 			} else if (type.equals("pepperoni")) {
 				pizza = new ChicagoStylePepperoniPizza();
 			}
+		} else if (style.equals("Seoul")) {
+			if (type.equals("cheese")) {
+				pizza = new SeoulStyleCheesePizza();
+			} else if (type.equals("veggie")) {
+				pizza = new SeoulStyleVeggiePizza();
+			} else if (type.equals("clam")) {
+				pizza = new SeoulStyleClamPizza();
+			} else if (type.equals("kimchi")) {
+				pizza = new SeoulStyleKimchiPizza();
+			}
 		} else {
 			System.out.println("Error: invalid type of pizza");
 			return null;
