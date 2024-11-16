@@ -30,5 +30,17 @@ public class PizzaTestDrive {
  
 		pizza = chicagoStore.orderPizza("veggie");
 		System.out.println("Joel ordered a " + pizza.getName() + "\n");
+
+		pizza = seoulStore.orderPizza("cheese");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
+
+		pizza = seoulStore.orderPizza("veggie");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
+
+		pizza = seoulStore.orderPizza("clam");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
+
+		pizza = seoulStore.orderPizza("kimchi");
+		System.out.println("Gang-Hyun ordered a " + pizza.getName() + "\n");
 	}
 }
