@@ -37,4 +37,11 @@ public class SeoulPizzaIngredientFactory implements PizzaIngredientFactory {
     public Clams createClam() {
         return new PenShell();
     }
+
+    @Override
+    public Kimchi createKimchi() {
+        return new Kimchi();
+    }
+
+
 }

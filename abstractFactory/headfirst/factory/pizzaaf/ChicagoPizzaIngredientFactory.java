@@ -30,4 +30,9 @@ public class ChicagoPizzaIngredientFactory
 	public Clams createClam() {
 		return new FrozenClams();
 	}
+
+	@Override
+	public Kimchi createKimchi() {
+		return null;
+	}
 }
